@@ -1,25 +1,61 @@
 {
   "intents": [
     {
-      "intent": "NumberGuessIntent",
+      "intent": "SubGameIntent",
       "slots": [
         {
-          "name": "number",
+          "name": "SubGame",
+          "type": "SUB_GAME_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "SubGameOnlyIntent",
+      "slots": [
+        {
+          "name": "SubGame",
+          "type": "SUB_GAME_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "AnswerIntent",
+      "slots": [
+        {
+          "name": "Answer",
           "type": "AMAZON.NUMBER"
         }
       ]
     },
     {
-      "intent": "AMAZON.YesIntent",
-      "slots": []
+      "intent": "AnswerOnlyIntent",
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
     },
     {
-      "intent": "AMAZON.NoIntent",
-      "slots": []
+      "intent": "AMAZON.StartOverIntent"
     },
     {
-      "intent": "AMAZON.HelpIntent",
-      "slots": []
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
     }
   ]
 }
