@@ -1,0 +1,44 @@
+{
+  "session": {
+    "sessionId": "SessionId.7eb60e21-8035-430e-ad1f-df902f69314a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2c7f4a4e-0dee-4cbf-a5a2-81838ce24aa8"
+    },
+    "attributes": {
+      "score": 0,
+      "currentQuestionIndex": 0,
+      "speechOutput": "What is 5 times 8?",
+      "correctAnswerText": "40",
+      "repromptText": "What is 5 times 8?",
+      "questions": [
+        43,
+        68,
+        63,
+        42,
+        87
+      ],
+      "gameStarted": true,
+      "correctAnswerIndex": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFJ3XKI5YRMSSZNSONBD2BCOVLTTFLPXVM4A5VX6TBNYMFHUDGQQXRM7IH5FPDLEZK62WGPZ2PAJYPMGCQJMLNABV5VTWESK7RQMISJXURKV467SPZHCKDXSI6RVDULD6FB6SSCM3JHX4SK3T7ROJNKCHG4LPUKHWOJMQRVVIKQ3W4JUCTRIRM5AIVO7JDBS3UN2SVKE3QOXGJI"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.78b45ef9-ea9a-4a08-9b34-f704a58b694d",
+    "locale": "en-US",
+    "timestamp": "2016-11-03T02:00:03Z",
+    "intent": {
+      "name": "AnswerOnlyIntent",
+      "slots": {
+        "Answer": {
+          "name": "Answer",
+          "value": "40"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

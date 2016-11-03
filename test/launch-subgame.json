@@ -1,0 +1,43 @@
+{
+  "session": {
+    "sessionId": "SessionId.0aef74e2-32e9-40f5-b838-4726b28653bd",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2c7f4a4e-0dee-4cbf-a5a2-81838ce24aa8"
+    },
+    "attributes": {
+      "score": 0,
+      "currentQuestionIndex": 0,
+      "speechOutput": "What is 3 times 10?",
+      "correctAnswerText": "30",
+      "repromptText": "What is 3 times 10?",
+      "questions": [
+        9,
+        5,
+        11,
+        3,
+        2
+      ],
+      "correctAnswerIndex": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFJ3XKI5YRMSSZNSONBD2BCOVLTTFLPXVM4A5VX6TBNYMFHUDGQQXRM7IH5FPDLEZK62WGPZ2PAJYPMGCQJMLNABV5VTWESK7RQMISJXURKV467SPZHCKDXSI6RVDULD6FB6SSCM3JHX4SK3T7ROJNKCHG4LPUKHWOJMQRVVIKQ3W4JUCTRIRM5AIVO7JDBS3UN2SVKE3QOXGJI"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.3815b6e6-f8b1-4ff3-9ae3-83b2295fc50a",
+    "locale": "en-US",
+    "timestamp": "2016-11-03T00:10:59Z",
+    "intent": {
+      "name": "SubGameIntent",
+      "slots": {
+        "SubGame": {
+          "name": "SubGame",
+          "value": "3 times table"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
